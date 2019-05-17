@@ -15,6 +15,7 @@ public class Pressure_based_force extends Force {
 
     @Override
     public void activeshader() {
+        System.out.println("accep");
         ourfluid.getShaderMangement().getProgram_f().use();
         int pos=ourfluid.getShaderMangement().getProgram_f().getUniformLocation("spiky_smoothing_kernel");
         ourfluid.getShaderMangement().getProgram_f().setUniform(pos,ourfluid.getConstant().getSpiky_smoothing_kernel());
