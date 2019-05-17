@@ -130,7 +130,7 @@ public class Pressure_based_force extends Force {
         ourfluid.getSsbo_Pressur().BindBufferBase(1);
         ourfluid.getSsbo_Pressur().BindBuffer(0);
 
-
+//4
         ourfluid.getSsbo_position().BindBuffer();
         ourfluid.getSsbo_position().BufferData(ourfluid.getPosition());
         ourfluid.getSsbo_position().BindBufferBase(2);
